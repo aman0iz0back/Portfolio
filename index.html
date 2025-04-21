@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('j.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<nav class="sidebar hide-medium hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<nav class="sidebar black animate-right xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="button black xxxlarge display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="bar-block center">
+    <a href="#" class="bar-item button text-grey hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="bar-item button text-grey hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="bar-item button text-grey hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="bar-item button text-grey hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<div class="main padding-large" style="margin-left:40%">
+
+  <span class="button top white xxlarge text-grey hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <header class="container center" style="padding:128px 16px" id="home">
+    <h1 class="jumbo"><b>John Wick</b></h1>
+    <p>Ex-Military and Hitman.</p>
+    <button class="button light-grey padding-large margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </header>
+
+  <div class="padding-32 content" id="portfolio">
+    <h2 class="text-grey">My Portfolio</h2>
+    <hr class="opacity">
+
+    <div class="row-padding" style="margin:0 -16px">
+      <div class="half">
+        <img src="j2.jpg" style="width:100%">
+        <img src="j3.jpg" style="width:100%">
+        <img src="j4.jpg" style="width:100%">
+        <img src="j5.jpg" style="width:100%">
+        <img src="j10.jpg" style="width:100%">
+      </div>
+
+      <div class="half">
+        <img src="j6.jpg" style="width:100%">
+        <img src="j7.jpg" style="width:100%">
+        <img src="j8.jpg" style="width:100%">
+        <img src="j11.jpg" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <div class="content justify text-grey padding-32" id="about">
+    <h2>About</h2>
+    <hr class="opacity">
+    <p>Jardani Jovonovich was born in the Byelorussian SSR (now Belarus), Soviet Union on September 12, 1964. Little is known about his childhood, but it was revealed that he was orphaned at a young age, adopted and recruited by the Ruska Roma organized crime group, then mentored by one of its leaders, a woman known as the The Director, in New York City. Jardani became associated with many members from the other branches of the Ruska Roma around the world, including Katia, who became his surrogate sister. Under the Director's supervision, Jardani was extensively trained to become a lethal hitman and learned multiple skills which included martial arts, marksmanship, melee combat, tactical and defensive driving, stealth, infiltration, and escapology. Jardani would later adopt the name "Jonathan Wick", or "John Wick" for short as the anglicized form of his birth name.
+    </p>
+    <h3 class="padding-16">My Skills</h3>
+    <p class="wide">Combat Skill</p>
+    <div class="light-grey">
+      <div class="container center padding-small dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="wide">Firearms and other Weaponary</p>
+    <div class="light-grey">
+      <div class="container center padding-small dark-grey" style="width:85%">94%</div>
+    </div>
+    <p class="wide">Martial Arts</p>
+    <div class="light-grey">
+      <div class="container center padding-small dark-grey" style="width:80%">90%</div>
+    </div><br>
+
+    <div class="row center dark-grey padding-16 section">
+      <div class="quarter section">
+        <span class="xlarge">10+</span><br>
+        Partners
+      </div>
+      <div class="quarter section">
+        <span class="xlarge">100+</span><br>
+        Projects Done
+      </div>
+      <div class="quarter section">
+        <span class="xlarge">100+</span><br>
+        Happy Clients
+      </div>
+      <div class="quarter section">
+        <span class="xlarge">80+</span><br>
+        Meetings
+      </div>
+    </div>
+<script src="script.js">
+</script>
+
+</body>
+</html>
